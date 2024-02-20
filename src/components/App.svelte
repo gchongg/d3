@@ -49,8 +49,8 @@
 
     // Color scale
     colorScale = d3.scaleThreshold()
-      .domain([.1,10,20,60,80,1])
-      .range(d3.schemeBlues[6]);
+      .domain([10,20,30,40,50,60,70,80,90])
+      .range(d3.schemeBlues[9]);
 
     // Draw the map
     svg.append("g")
